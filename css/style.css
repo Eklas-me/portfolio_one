@@ -267,6 +267,7 @@ section.slider {
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   border-radius: 7px;
+  transition: .5s;
 
 
 }
@@ -288,7 +289,7 @@ section.slider {
 
 .card-body.service-box:hover {
   background: linear-gradient(145deg, #f9004d, #f9004d);
-  color: #fff;
+  
 }
 
 /* Portfolio section Start */
@@ -301,6 +302,7 @@ section.slider {
 img.card-img-top {
   margin-bottom: 20px;
   border-radius: 10px;
+  transition: .5s ease-in-out;
 }
 
 .card.portfolio-item {
