@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-primary: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.header-Center-ul {
+  list-style: none;
+}
+
+.container-fluid {
+  padding: 0px 30px;
+}
+
+.header-Center ul li a {
+  text-decoration: none;
+  color: #3c3e41;
+  font-size: 13px;
+  transition: .5s;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header-Center ul {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.header-Center ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.header-Center {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row.header-wrapper {
+  height: 122px;
+  display: flex;
+  align-items: center;
+}
+
+.header-right button {
+  color: red;
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  font-weight: 600;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: #fff;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.header-Center ul li a:hover {
+  color: gray;
+}
+
+body.white-version {
+  background-color: #ECF0F3;
+}
+
+/*slider Section Srtart  */
+.slider-icons {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.best-skill ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.best-skill ul li {
+  width: 60px;
+  display: inline-block;
+  height: 60px;
+  background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+  line-height: 60px;
+  text-align: center;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.best-skill ul li a img {
+  max-width: 23px;
+}
+
+.best-skill h5 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.find-me h5 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.find-me span {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.slider-text h5 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+}
+
+.slider-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.slider-text h1 span {
+  color: crimson;
+}
+
+span.header-captions {
+  color: #1e2125 !important;
+  font-size: 50px;
+}
+
+.slider-text p {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 16%;
+}
+
+.slider-text {
+  margin-bottom: 142px;
+}
+
+section.slider {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.slider-image {}
+
+.thambnail {
+  position: relative;
+  z-index: 2;
+}
+
+.thambnail::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* Service Secrtion */
+
+.line {
+  padding-top: 100px;
+  position: relative;
+}
+
+.line::after {
+  content: "";
+  background: #dce1e4;
+  width: 1270px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.common-heading h5 {
+  font-weight: 400;
+  color: #f9004d;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.common-heading h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #3c3e41;
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+}
+
+.card-body span {
+  color: red;
+  font-size: 40px;
+  width: 50px;
+  display: inline-block;
+  padding-bottom: 20px;
+  transition: .5s;
+
+}
+
+.card-body.service-box:hover span {
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+.card-body h4 {
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+  transition: .5s;
+}
+
+.card-body.service-box:hover h4 {
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+.card-body p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #3c3e41;
+  transition: .5s;
+}
+
+.card-body.service-box:hover p {
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+
+.card-body.service-box {
+  padding: 35px 50px 35px 50px;
+}
+
+.card-body.service-box {
+  padding: 35px 50px 35px 50px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  border-radius: 7px;
+
+
+}
+
+.card-body.service-box a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  transition: .5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card-body.service-box:hover a {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.card-body.service-box:hover {
+  background: linear-gradient(145deg, #f9004d, #f9004d);
+  color: #fff;
+}
+
+/* Portfolio section Start */
+.inner-project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+img.card-img-top {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card.portfolio-item {
+  border-radius: 12px;
+  padding: 15px 15px 0px 15px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+
+.inner-project .card-text {
+  color: #f9004d;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.inner-project a {
+  text-decoration: none;
+  color: #3c3e41;
+  font-size: 14px;
+}
+
+p.card-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #1e2125;
+}
+
+.card.portfolio-item:hover img.card-img-top{
+   transform: scale(1.1);
+} 
+
+
+.card.portfolio-item .card-body p i {visibility: hidden;opacity: 0;transition: .5s; font-size: 15px;}
+.card.portfolio-item .card-body:hover p{
+  color: #f9004d;
+}
+.card.portfolio-item .card-body p:hover  i{
+  visibility: visible;
+  opacity: 1;
+  color: #f9004d;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* Portfolio section End */
