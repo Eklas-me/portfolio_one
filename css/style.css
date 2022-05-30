@@ -289,7 +289,7 @@ section.slider {
 
 .card-body.service-box:hover {
   background: linear-gradient(145deg, #f9004d, #f9004d);
-  
+
 }
 
 /* Portfolio section Start */
@@ -332,20 +332,166 @@ p.card-title {
   color: #1e2125;
 }
 
-.card.portfolio-item:hover img.card-img-top{
-   transform: scale(1.1);
-} 
+.card.portfolio-item:hover img.card-img-top {
+  transform: scale(1.1);
+}
 
 
-.card.portfolio-item .card-body p i {visibility: hidden;opacity: 0;transition: .5s; font-size: 15px;}
-.card.portfolio-item .card-body:hover p{
+.card.portfolio-item .card-body p i {
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+  font-size: 15px;
+}
+
+.card.portfolio-item .card-body:hover p {
   color: #f9004d;
 }
-.card.portfolio-item .card-body p:hover  i{
+
+.card.portfolio-item .card-body p:hover i {
   visibility: visible;
   opacity: 1;
   color: #f9004d;
   font-weight: 600;
   font-size: 15px;
 }
+
 /* Portfolio section End */
+
+/* My Resume Css Start */
+
+ul.resume-wrapper {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  padding: 30px 0;
+}
+
+ul.resume-wrapper li:hover a {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  padding: 35px 84px;
+  border-radius: 7px;
+}
+
+
+ul.resume-wrapper li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f9004d;
+  font-weight: 400;
+  padding: 0 30px;
+  transition: .5s;
+}
+
+.active {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  padding: 35px 84px !important;
+  border-radius: 7px;
+}
+
+
+.resume_top {
+  padding-top: 50px;
+}
+
+.resume_top h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.resume_top span {
+  color: #f9004d;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+.experience-list {
+  margin-top: 50px;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  padding: 34px;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  transition: .5s;
+}
+
+.exp-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-left h4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #1e2125;
+}
+
+.title-left span {
+  color: #3c3e41;
+}
+
+.date-time span {
+  color: #f9004d;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  border-radius: 7px;
+  font-weight: 500;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  padding: 10px 15px;
+}
+
+.exp-list-discription p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: Poppins", sans-serif;";
+  color: #3c3e41;
+}
+
+.exp-list-discription {
+  padding-top: 32px;
+}
+
+.experiance-wrapper {
+  padding-left: 30px;
+ 
+  position: relative;
+}
+
+.resume-wrapper {
+  border-left: 5px solid #d9dee2;
+}
+
+.experiance-wrapper::after {
+  content: "";
+  position: absolute;
+  background: #d9dee2;
+  width: 21px;
+  height: 5px;
+  
+  top: 72px;
+z-index: 1;left: 9px;}
+
+.experiance-wrapper::before {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 20px;
+  height: 20px;
+  right: 98%;
+  top: 65px;
+  border-radius: 100%;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  border: 5px solid #d9dee2;
+}
+.experience-list:hover {background: #f9004d;color: #fff; z-index: 999;}
+.experience-list:hover .exp-list-discription p {color: #fff;}
+.experience-list:hover .date-time span{color: #fff;  background: linear-gradient(145deg, #ff0202, #ff0000); box-shadow: none;}
+.experience-list:hover .title-left h4{color: #fff;}
+.experience-list:hover .title-left span{color: #fff;}
+.experience-list:hover .resume_top h1  {color: #fff; }
+/* My Resume Css End */
