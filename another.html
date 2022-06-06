@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+     
+    <!-- login system -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-login">
+              <div class="panel-heading">
+                  <div class="row">
+                      <div class="col-xs-6">
+                          <a href="#" class="active" id="login-form-link">Login</a>
+                      </div>
+                      <div class="col-xs-6">
+                          <a href="#register-form" id="register-form-link">Register</a>
+                      </div>
+                  </div>
+                  <hr>
+              </div>
+              <div class="panel-body">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <form id="login-form" action="login.php" method="post" role="form" style="display: block;">
+                              <div class="form-group">
+                                  <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                              </div>
+                              <div class="form-group">
+                                  <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                              </div>
+                              <div class="form-group text-center">
+                                  <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                                  <label for="remember"> Remember Me</label>
+                              </div>
+                              <div class="form-group">
+                                  <div class="row">
+                                      <div class="col-sm-6 col-sm-offset-3">
+                                          <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="
+                                  row">
+                                      <div class="col-lg-12">
+                                          <div class="text-center">
+                                              <a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                          <form id="register-form" action="login.php" method="post" role="form" style="display: none;">
+                              <div class="form-group">
+                                  <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                              </div>
+                              <div class="form-group">
+                                  <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                              </div>
+                              <div class="form-group">
+                                  <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                              </div>
+                              <div class="form-group">
+                                  <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                              </div>
+                              <div class="form-group">
+                                  <div class="row">
+                                      <div class="col-sm-6 col-sm-offset-3">
+                                          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- login system -->
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- login function  -->
+<script type="text/javascript">
+ 
+ 
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if(username == "")
+    {
+      alert("Please enter username");
+      return false;
+    }
+    else if(password == "")
+    {
+      alert("Please enter password");
+      return false;
+    }
+    else
+    {
+      return true;
+    }
+
+  </script>
+  </body>
+</html>
